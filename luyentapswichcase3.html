@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập swichcase 3</title>
+</head>
+<body>
+    <script>
+        let value = prompt("Nhập 1 số");
+        if (value > 0){
+            alert(1);
+        }else if (value < 0){
+            alert(-1);
+        }else {
+            alert(0);
+        }
+        switch ((value > 0) ? 1 : (value < 0) ? -1 : 0){
+            case 0 :
+                alert(0);
+                break;
+            case 1 :
+                alert(1);
+                break;
+            case 2 :
+                alert(2);
+                break;
+        }
+    </script>
+</body>
+</html>
